@@ -1,9 +1,9 @@
 from __future__ import print_function
+from setuptools import setup, find_packages
+from thecut.exampleapp import __version__
 import codecs
 import io
 import os
-from thecut.exampleapp import __version__
-from setuptools import setup, find_packages
 import sys
 
 
@@ -47,6 +47,12 @@ setup(
     platforms='any',
     classifiers=[
         'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
         'Development Status :: 1 - Planning',
         # 'Development Status :: 2 - Pre-Alpha',
         # 'Development Status :: 3 - Alpha',
@@ -64,7 +70,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Framework :: Django',
         'Framework :: Django :: 1.8',
-        'Framework :: Django :: 1.9',
         'Framework :: Django :: 1.10',
+        'Framework :: Django :: 1.11',
     ],
 )
