@@ -1,6 +1,6 @@
-=============================
-Welcome to thecut-exampleapp
-=============================
+=================
+thecut-exampleapp
+=================
 
 ..
   .. image:: https://travis-ci.org/thecut/thecut-exampleapp.svg
