@@ -1,6 +1,6 @@
 from __future__ import print_function
 from setuptools import setup, find_packages
-from thecut.exampleapp import __version__
+from thecut.bleachfield import __version__
 import codecs
 import io
 import os
@@ -24,7 +24,7 @@ long_description = read('README.rst', 'HISTORY.rst')
 
 setup(
     # General information
-    name='thecut-exampleapp',
+    name='thecut-bleachfield',
     version=__version__,
 
     # Packaging
@@ -40,9 +40,9 @@ setup(
     author_email='development@thecut.net.au',
 
     # Additional information
-    url='https://projects.thecut.net.au/projects/thecut-exampleapp',
+    url='https://github.com/thecut/thecut-bleachfield',
     license='Apache Software License 2.0',
-    description='A reusable application.',
+    description='A django form field cleaned with bleach.',
     long_description=long_description,
     platforms='any',
     classifiers=[

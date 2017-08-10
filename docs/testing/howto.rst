@@ -32,10 +32,10 @@ You can use ``virtualenv`` to test without polluting your system's Python enviro
 
 2. Create and activate a ``virtualenv``::
 
-    $ cd thecut-exampleapp
+    $ cd thecut-bleachfield
     $ virtualenv .
     $ source bin/activate
-    (thecut-exampleapp) $
+    (thecut-bleachfield) $
 
 3. Follow 'Using your system's Python / Django' above.
 
@@ -52,7 +52,7 @@ Python and Django versions.
 
 2. Run ``tox``::
 
-    (thecut-exampleapp) $ tox --recreate
+    (thecut-bleachfield) $ tox --recreate
 
 Tox assumes that a number of different Python versions are available on your
 system. If you do not have all required versions of Python installed on your

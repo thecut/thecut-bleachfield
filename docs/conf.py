@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# thecut-exampleapp documentation build configuration file, created by
+# thecut-bleachfield documentation build configuration file, created by
 # sphinx-quickstart on Wed Jun 29 10:25:18 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -61,7 +61,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'thecut-exampleapp'
+project = u'thecut-bleachfield'
 copyright = u'2016, The Cut Creative'
 author = u'The Cut Creative'
 
@@ -73,8 +73,8 @@ author = u'The Cut Creative'
 
 
 # version = '.'.join(release.split('.')[:2])
-from thecut import exampleapp
-version = exampleapp.__version__
+from thecut import bleachfield
+version = bleachfield.__version__
 
 # The full version, including alpha/beta/rc tags.
 release = version
@@ -151,7 +151,7 @@ html_theme = 'default'
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = u'thecut-exampleapp v0.1'
+# html_title = u'thecut-bleachfield v0.1'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -251,7 +251,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'thecut-exampleappdoc'
+htmlhelp_basename = 'thecut-bleachfielddoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -277,7 +277,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'thecut-exampleapp.tex', u'thecut-exampleapp Documentation',
+    (master_doc, 'thecut-bleachfield.tex', u'thecut-bleachfield Documentation',
      u'The Cut Creative', 'manual'),
 ]
 
@@ -313,7 +313,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'thecut-exampleapp', u'thecut-exampleapp Documentation',
+    (master_doc, 'thecut-bleachfield', u'thecut-bleachfield Documentation',
      [author], 1)
 ]
 
@@ -328,8 +328,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'thecut-exampleapp', u'thecut-exampleapp Documentation',
-     author, 'thecut-exampleapp', 'One line description of project.',
+    (master_doc, 'thecut-bleachfield', u'thecut-bleachfield Documentation',
+     author, 'thecut-bleachfield', 'One line description of project.',
      'Miscellaneous'),
 ]
 
