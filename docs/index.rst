@@ -1,10 +1,10 @@
-.. thecut-exampleapp documentation master file, created by
+.. thecut-bleachfield documentation master file, created by
    sphinx-quickstart on Wed Jun 29 10:25:18 2016.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to thecut-exampleapp's documentation!
-=============================================
+Welcome to thecut-bleachfield's documentation!
+==============================================
 
 Contents:
 

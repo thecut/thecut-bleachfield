@@ -15,7 +15,7 @@ INSTALLED_APPS = [
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sites",
-    "thecut.exampleapp",
+    "thecut.bleachfield",
     "test_app",
 ]
 
