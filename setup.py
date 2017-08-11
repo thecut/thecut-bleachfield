@@ -1,10 +1,8 @@
 from __future__ import print_function
 from setuptools import setup, find_packages
 from thecut.bleachfield import __version__
-import codecs
 import io
 import os
-import sys
 
 
 here = os.path.abspath(os.path.dirname(__file__))
@@ -33,16 +31,18 @@ setup(
     include_package_data=True,
 
     # Dependencies
-    install_requires=[],
+    install_requires=[
+        'bleach>=2.0.0,<3',
+    ],
 
     # Author information
-    author='The Cut Creative',
+    author='The Cut',
     author_email='development@thecut.net.au',
 
     # Additional information
     url='https://github.com/thecut/thecut-bleachfield',
     license='Apache Software License 2.0',
-    description='A django form field cleaned with bleach.',
+    description='A django form field which is cleaned with bleach.',
     long_description=long_description,
     platforms='any',
     classifiers=[
@@ -53,9 +53,7 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
-        'Development Status :: 1 - Planning',
-        # 'Development Status :: 2 - Pre-Alpha',
-        # 'Development Status :: 3 - Alpha',
+        'Development Status :: 3 - Alpha',
         # 'Development Status :: 4 - Beta',
         # 'Development Status :: 5 - Production/Stable',
         # 'Development Status :: 6 - Mature',

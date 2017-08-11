@@ -4,19 +4,8 @@
 Installation instructions
 =========================
 
-1. Install via pip / pypi::
+1. Install via pip / pypi (or add to your requirements file):
 
-    $ pip install thecut-bleachfield
+    .. code-block:: bash
 
-
-2. Add to your project's ``INSTALLED_APPS`` setting::
-
-    INSTALLED_APPS = [
-        # ...
-        'thecut.bleachfield'
-        # ...
-    ]
-
-3. Sync your project's migrations::
-
-    $ python manage.py migrate bleachfield
+        $ pip install thecut-bleachfield
